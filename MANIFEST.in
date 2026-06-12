@@ -9,6 +9,7 @@
 #  pip install -e .[all]
 #  check-manifest -u
 
+exclude .git-blame-ignore-revs
 include .dockerignore
 include .editorconfig
 include .tx/config
